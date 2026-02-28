@@ -5,6 +5,7 @@
   "packageManager": "pnpm@10.30.3",
   "description": "Blog starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
+    "clean": "hugo mod clean && rm -rf _vendor resources public .hugo_build.lock",
     "new": "hugo new content",
     "dev": "hugo server -D -E -F -M -N -O -b http://localhost --bind 0.0.0.0 --disableFastRender --logLevel debug",
     "build": "hugo --gc --minify --logLevel debug && pnpm run pagefind",
