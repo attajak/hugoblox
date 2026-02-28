@@ -13,9 +13,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Attajak Janrak"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "attajakorg"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
@@ -24,7 +24,7 @@ hugoblox:
     description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: "attajak"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -129,19 +129,19 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "Attajak Janrak"
     # For local_business identity type only
     location:
       address:
         street: ""
-        city: ""
+        city: "Trang"
         region: ""
-        postal_code: ""
-        country: ""
+        postal_code: "92220"
+        country: "Thailand"
       coordinates:
         latitude: null
         longitude: null
-      phone: ""
+      phone: "+66627824869"
     # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:
@@ -231,8 +231,8 @@ hugoblox:
   # Source code repository for "Edit this page" links
   # ────────────────────────────────────────────────────────────────────────────
   repository:
-    enable: false
-    url: ""                             # e.g., https://github.com/username/repo
+    enable: true
+    url: "https://github.com/attajak/hugoblox"                             # e.g., https://github.com/username/repo
     branch: main
     content_dir: content
 
